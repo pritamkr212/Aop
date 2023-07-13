@@ -21,6 +21,9 @@ public class AopSecurityApplication {
 		};
 	}
 
+//	public static void main(String[] args) {
+//
+//	}
 
 	private void demoAccount(AccountDAO accountDAO, MembershipDAO membershipDAO) {
 		accountDAO.addAccount(new Account(),true);
